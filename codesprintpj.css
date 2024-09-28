@@ -1,0 +1,106 @@
+.main1{
+    width: 80%;
+    height: 1200px;
+    margin-left: 150px;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid 4px black;
+    background-color:#C4D7FF;
+}
+header{
+    margin-top: 10px;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #87A2FF;
+    border-radius: 5px;
+    margin-left: 50px;
+    border: solid 2px black;
+    padding-top: 20px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.super{
+    margin: 30px;
+    margin-left: 80px;
+}
+.but{
+    margin-top: 10px;
+    margin-left: 100px;
+    background-color: blueviolet;
+}
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}  
+.remainder{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 100px;
+    border: solid 2px black;
+    font-weight: 800;
+    /* margin: 10px; */
+}
+#medicinesremainder{
+    background-image: url('medicine.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+#Waterremainder{
+    background-image: url('water1.jpg'); 
+    background-size:cover; 
+    background-position:center; 
+    background-repeat: no-repeat;
+}
+#otherremainder{
+    background: url(self.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#tips{
+    background: url(tips.jpg);
+    background-size: cover;
+}
+.foot{
+    width: 80%;
+    height: 30px;
+    background-color:#FFD7C4;
+    color: blueviolet; 
+    margin: 20px;
+    margin-left: 50px;
+    border: solid 2px black;
+    padding-top: 10px;
+    /* margin-left: 0px; */
+}
+footer{
+    margin-left: 0px;
+}
+/* .foot1{
+    width: 90%;
+    height: 100px;
+    background-color:#FFD7C4;
+    color: blueviolet;
+    margin-left: 50px; 
+    margin-bottom: 5px;
+    border: solid 2px black;
+} */
